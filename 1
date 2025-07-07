@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Charity Water Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Proxima Nova', sans-serif;
+      background-color: #E1EEF1;
+      color: #333;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      border-bottom: 1px solid #ccc;
+      background-color: #E1EEF1;
+    }
+    header .logo {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      font-size: 24px;
+    }
+    header .logo span {
+      margin-left: 8px;
+    }
+    header nav a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 50px;
+      align-items: center;
+    }
+    .hero-text {
+      flex: 1;
+      min-width: 300px;
+    }
+    .hero-text h1 {
+      font-size: 40px;
+      color: #031B4E;
+    }
+    .hero-text p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+    }
+    .hero-text p a {
+      color: #2E9DF7;
+      text-decoration: none;
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 30px;
+      background-color: #FFC907;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 18px;
+      transition: background-color 0.3s;
+    }
+    .cta-button:hover {
+      background-color: #e6b800;
+    }
+    .hero-image {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+    .hero-image img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #E1EEF1;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="https://www.charitywater.org/assets/logos/logo-icon-yellow-5eeb93e0538a487d7f1d15060f1e4e5e.svg" alt="charity: water logo" height="30">
+      <span>charity: water</span>
+    </div>
+    <nav>
+      <a href="#">Take Action</a>
+      <a href="#">About Us</a>
+      <a href="#">Sign In</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Give Hope,<br>One Drop at a Time</h1>
+      <p>
+        <a href="#">Water</a> changes everything. Give the gift of clean, safe water. Your donation directly transforms lives.
+        Allow yourself to see the incredible difference you make for those without access to safe drinking water.
+      </p>
+      <a class="cta-button" href="#">GIVE 💧</a>
+      <p>100% of public donations fund water projects, with GPS and photo proof on Google Maps.</p>
+    </div>
+    <div class="hero-image">
+      <img src="https://www.charitywater.org/_nuxt/img/charity-water-homepage-hero-girl.2aa53d7.jpg" alt="Girl drinking water">
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 charity: water. All rights reserved.
+  </footer>
+
+</body>
+</html>
