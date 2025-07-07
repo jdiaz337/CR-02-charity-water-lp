@@ -3,35 +3,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Charity: Water Replica</title>
-  <link rel="stylesheet" href="style.css" />
-  <!-- Google Fonts for Proxima Nova alternative -->
-  <link href="https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Avenir+Next:wght@400;700&display=swap" rel="stylesheet">
+  <title>Charity: Water</title>
+  <link href="https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700&family=Avenir+Next:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-  <header>
+  <header class="header">
     <div class="logo">
-      <img src="https://www.charitywater.org/static/media/logo-symbol-yellow.0b70f792.svg" alt="Charity: Water Logo"/>
-      <span>charity: water</span>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Charity-water-logo.png" alt="Charity Water Logo">
     </div>
     <nav>
-      <a href="#">TAKE ACTION</a>
-      <a href="#">ABOUT US</a>
-      <a href="#">SIGN IN</a>
+      <ul class="nav-links">
+        <li><a href="#">Take Action</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Sign In</a></li>
+      </ul>
     </nav>
   </header>
 
-  <main>
-    <section class="content">
+  <main class="hero-section">
+    <div class="text-content">
       <h1>Give Hope,<br>One Drop at a Time</h1>
-      <p><a href="#">Water</a> changes everything. Give the gift of clean, safe water. Your donation directly transforms lives. Allow yourself to see the incredible difference you make for those without access to safe drinking <a href="#">water</a>.</p>
-      <button>GIVE 💧</button>
-      <p class="note">100% of all public donations directly fund water project costs, and every dollar is proven with photos and GPS coordinates on Google Maps.</p>
-    </section>
-    <section class="image">
-      <img src="https://www.charitywater.org/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fnyu9sw9a8fh9%2F4nAe6EFObyScOqSeQmIe82%2Fcd5a8fcaa91d1a1884189dfb93e19184%2FGiveHope.jpg&w=1920&q=75" alt="Girl drinking water"/>
-    </section>
+      <p>
+        <a href="#" class="water-link">Water</a> changes everything. Give the gift of clean, safe water.
+        Your donation directly transforms lives. Allow yourself to see the incredible difference
+        you make for those without access to safe drinking <a href="#" class="water-link">water</a>.
+      </p>
+      <a href="#" class="donate-button">GIVE 💧</a>
+      <p class="disclaimer">
+        100% of all public donations directly fund water project costs, and every dollar is proven with
+        photos and GPS coordinates on Google Maps.
+      </p>
+    </div>
+    <div class="image-content">
+      <img src="https://i.imgur.com/EzD7Oba.jpg" alt="Girl drinking water">
+    </div>
   </main>
 </body>
 </html>
