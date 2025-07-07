@@ -1,87 +1,78 @@
+
 body {
-  margin: 0;
-  font-family: 'Proxima Nova', 'Avenir Next', sans-serif;
-  background-color: #e1eef1;
-  color: #1a1a1a;
+    margin: 0;
+    font-family: 'Proxima Nova', 'Avenir Next Arabic', sans-serif;
+    background-color: #e1eef1;
+    color: #1b1b1b;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  border-bottom: 2px solid #1a1a1a;
-  background-color: #e1eef1;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
 }
 
-.logo img {
-  height: 40px;
+header .logo img {
+    height: 40px;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 30px;
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #1b1b1b;
+    font-weight: bold;
 }
 
-.nav-links a {
-  text-decoration: none;
-  color: #1a1a1a;
-  font-weight: 700;
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
 }
 
-.hero-section {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 40px;
-  gap: 40px;
-  align-items: center;
-  justify-content: center;
+.content {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    margin-right: 20px;
 }
 
-.text-content {
-  max-width: 500px;
-  flex: 1;
+.content h1 {
+    font-size: 2.5em;
+    color: #1b1b1b;
 }
 
-.text-content h1 {
-  font-size: 36px;
-  font-weight: 700;
-  margin-bottom: 20px;
+.content p {
+    font-size: 1em;
+    line-height: 1.6;
 }
 
-.text-content p {
-  font-size: 16px;
-  line-height: 1.6;
-  margin-bottom: 20px;
+.content .highlight {
+    color: #2E9DF7;
 }
 
-.water-link {
-  color: #2e9df7;
-  text-decoration: none;
-  font-weight: 500;
+.content button {
+    background-color: #FFC907;
+    color: #1b1b1b;
+    border: none;
+    padding: 15px 30px;
+    margin: 20px 0;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
-.donate-button {
-  display: inline-block;
-  background-color: #ffc907;
-  color: #000;
-  padding: 12px 24px;
-  font-weight: 700;
-  border-radius: 8px;
-  text-decoration: none;
-  font-size: 18px;
+.content .small-text {
+    font-size: 0.9em;
+    color: #555;
 }
 
-.disclaimer {
-  font-size: 14px;
-  margin-top: 20px;
-  color: #555;
+.image-section img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
 }
 
-.image-content img {
-  max-width: 450px;
-  border-radius: 12px;
-  object-fit: cover;
-  width: 100%;
-}
